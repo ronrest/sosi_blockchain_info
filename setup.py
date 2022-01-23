@@ -1,18 +1,18 @@
 import setuptools
 
 setuptools.setup(
-    name="YYY",
+    name="sosi_blockchain_info",
     version="0.0.1",
     author="ronny",
     description='Something',
-    url="https://github.com/ronrest/XXX",
+    url="https://github.com/ronrest/sosi_blockchain_info",
     project_urls={
-        "Bug Tracker": "https://github.com/ronrest/XXX/issues",
-        "Documentation": "https://github.com/ronrest/XXX/blob/master/README.md",
+        "Bug Tracker": "https://github.com/ronrest/sosi_blockchain_info/issues",
+        "Documentation": "https://github.com/ronrest/sosi_blockchain_info/blob/master/README.md",
     },
     classifiers=[
         "License :: OSI Approved :: MIT License",
-        'Development Status :: Alpha',
+        'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
         'Topic :: Software Development :: Libraries',
         "Programming Language :: Python :: 3",
@@ -26,6 +26,7 @@ setuptools.setup(
         'python-dateutil',
         'python-decouple',
         'requests',
+        'sosi_api==0.0.*',
     ],
     extras_require={
         'dev': [
